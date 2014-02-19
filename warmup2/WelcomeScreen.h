@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WelcomeScreen : UIViewController
+@interface WelcomeScreen : UIViewController {
+    IBOutlet UILabel *loginMessage;
+}
+
+-(IBAction)logout:(id)sender;
+
+@property(nonatomic) NSString *message;
 
 @end

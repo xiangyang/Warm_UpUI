@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F034BE52-9783-45C2-BB5A-E4AFAE940ED4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>warmup2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>76E8F63F-2320-49C7-8E0E-1CF544451C3B</key>
+		<string>https://github.com/xiangyang/Warm_UpUI.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>warmup2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>76E8F63F-2320-49C7-8E0E-1CF544451C3B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xiangyang/Warm_UpUI.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>76E8F63F-2320-49C7-8E0E-1CF544451C3B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76E8F63F-2320-49C7-8E0E-1CF544451C3B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>warmup2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

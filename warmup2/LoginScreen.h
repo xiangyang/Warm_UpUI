@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginScreen : UIViewController
+@interface LoginScreen : UIViewController <UITextFieldDelegate>{
+    IBOutlet UILabel *errorMessage;
+    IBOutlet UITextField *username;
+    IBOutlet UITextField *password;
+    IBOutlet UIButton *loginButton;
+    IBOutlet UIButton *addButton;
+    IBOutlet UIButton *logoutButton;
+
+}
+    -(IBAction)inputPassword:(id)sender;
+    -(IBAction)inputUsername:(id)sender;
+
+    -(IBAction)userLogin:(id)sender;
+    -(IBAction)userAdd:(id)sender;
+
 
 @end

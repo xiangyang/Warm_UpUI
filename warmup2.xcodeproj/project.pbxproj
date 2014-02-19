@@ -19,6 +19,10 @@
 		32AC988718B4FB2F0047AA9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AC986F18B4FB2F0047AA9C /* UIKit.framework */; };
 		32AC988F18B4FB2F0047AA9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32AC988D18B4FB2F0047AA9C /* InfoPlist.strings */; };
 		32AC989118B4FB2F0047AA9C /* warmup2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AC989018B4FB2F0047AA9C /* warmup2Tests.m */; };
+		32AC989F18B4FE240047AA9C /* LoginScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AC989D18B4FE240047AA9C /* LoginScreen.m */; };
+		32AC98A018B4FE240047AA9C /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32AC989E18B4FE240047AA9C /* LoginScreen.xib */; };
+		32AC98A618B4FF940047AA9C /* WelcomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AC98A418B4FF940047AA9C /* WelcomeScreen.m */; };
+		32AC98A718B4FF940047AA9C /* WelcomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32AC98A518B4FF940047AA9C /* WelcomeScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		32AC988C18B4FB2F0047AA9C /* warmup2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "warmup2Tests-Info.plist"; sourceTree = "<group>"; };
 		32AC988E18B4FB2F0047AA9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32AC989018B4FB2F0047AA9C /* warmup2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = warmup2Tests.m; sourceTree = "<group>"; };
+		32AC989C18B4FE240047AA9C /* LoginScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScreen.h; sourceTree = "<group>"; };
+		32AC989D18B4FE240047AA9C /* LoginScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginScreen.m; sourceTree = "<group>"; };
+		32AC989E18B4FE240047AA9C /* LoginScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
+		32AC98A318B4FF940047AA9C /* WelcomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScreen.h; sourceTree = "<group>"; };
+		32AC98A418B4FF940047AA9C /* WelcomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeScreen.m; sourceTree = "<group>"; };
+		32AC98A518B4FF940047AA9C /* WelcomeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,12 @@
 				32AC987B18B4FB2F0047AA9C /* WUAppDelegate.m */,
 				32AC987D18B4FB2F0047AA9C /* Images.xcassets */,
 				32AC987218B4FB2F0047AA9C /* Supporting Files */,
+				32AC989C18B4FE240047AA9C /* LoginScreen.h */,
+				32AC989D18B4FE240047AA9C /* LoginScreen.m */,
+				32AC989E18B4FE240047AA9C /* LoginScreen.xib */,
+				32AC98A318B4FF940047AA9C /* WelcomeScreen.h */,
+				32AC98A418B4FF940047AA9C /* WelcomeScreen.m */,
+				32AC98A518B4FF940047AA9C /* WelcomeScreen.xib */,
 			);
 			path = warmup2;
 			sourceTree = "<group>";
@@ -220,7 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AC98A018B4FE240047AA9C /* LoginScreen.xib in Resources */,
 				32AC987618B4FB2F0047AA9C /* InfoPlist.strings in Resources */,
+				32AC98A718B4FF940047AA9C /* WelcomeScreen.xib in Resources */,
 				32AC987E18B4FB2F0047AA9C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				32AC987C18B4FB2F0047AA9C /* WUAppDelegate.m in Sources */,
+				32AC989F18B4FE240047AA9C /* LoginScreen.m in Sources */,
+				32AC98A618B4FF940047AA9C /* WelcomeScreen.m in Sources */,
 				32AC987818B4FB2F0047AA9C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +383,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "warmup2/warmup2-Prefix.pch";
 				INFOPLIST_FILE = "warmup2/warmup2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "warmup2/warmup2-Prefix.pch";
 				INFOPLIST_FILE = "warmup2/warmup2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -442,6 +464,7 @@
 				32AC989618B4FB2F0047AA9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32AC989718B4FB2F0047AA9C /* Build configuration list for PBXNativeTarget "warmup2Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +473,7 @@
 				32AC989918B4FB2F0047AA9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

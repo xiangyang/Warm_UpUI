@@ -7,7 +7,7 @@
 //
 
 #import "WelcomeScreen.h"
-
+#import "LoginScreen.h"
 @interface WelcomeScreen ()
 
 @end
@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+      
     }
     return self;
 }
@@ -26,13 +26,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    loginMessage.text = self.message;
+    loginMessage.lineBreakMode = NSLineBreakByWordWrapping;
+    loginMessage.numberOfLines = 0;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)logout:(id)sender {
+    LoginScreen *login = [[LoginScreen alloc]  initWithNibName:nil bundle:nil];
+    [self presentViewController:login animated:YES completion:NULL];
+    
 }
 
 @end
